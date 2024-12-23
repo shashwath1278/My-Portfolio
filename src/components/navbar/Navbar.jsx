@@ -6,7 +6,7 @@ import {
   FaMoon,
   FaSun,
 } from "react-icons/fa";
-import { useTheme } from "../ThemeContext";
+import { useTheme } from "../Themecontext";
 import Side from "@/components/Side-circle/Side";
 
 const Navbar = () => {
