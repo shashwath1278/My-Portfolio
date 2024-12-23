@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Side.css'; // Importing the CSS file
-import { useTheme } from '../ThemeContext'; // Assuming this context is available
+import { useTheme } from '../Themecontext'; // Assuming this context is available
 
 const Links = () => {
     return (
