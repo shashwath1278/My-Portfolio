@@ -4,7 +4,7 @@ import Background1 from './components/background/Background1';
 import Navbar from './components/navbar/Navbar';
 import { useTheme } from './components/Themecontext';
 import Body from './components/Aboutme/Body';
-import Aboutme from './components/Aboutme/AboutMe';
+import Aboutme from './components/Aboutme/Aboutme';
 import Type from './components/Typewritertext/Typetext';
 import Skills from './components/Skills/Skills';
 import Contactme from './components/Contactme/Contactme';
