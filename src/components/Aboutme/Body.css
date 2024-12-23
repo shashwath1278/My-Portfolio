@@ -1,0 +1,40 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  
+  .imagecontainer img {
+    width:95%;
+    height: 400px;
+    max-height: 500px; /* Max height for the image */
+    border-radius: 20px; /* Rounded corners for the image */
+    border: 5px solid rgba(255, 255, 255, 0.3); /* Transparent white border with opacity */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow around the image */
+  }
+  
+  @media (max-width: 768px) {
+    .imagecontainer {
+      width: 80%; /* Smaller width on smaller screens */
+      max-width: 500px;
+    }
+  
+    .imagecontainer img {
+      max-height: 400px; /* Adjust image size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .imagecontainer {
+      width: 70%;
+      max-width: 400px;
+    }
+  
+    .imagecontainer img {
+      max-height: 350px;
+    }
+  }
+  

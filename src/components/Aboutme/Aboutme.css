@@ -1,0 +1,88 @@
+.about-section {
+    height: 100vh; /* Full viewport height */
+    padding: 50px;
+    background: url('https://example.com/background-image.jpg') no-repeat center center; /* Background image */
+    background-size: cover; /* Cover the section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Light text color for contrast */
+    text-align: center; /* Center align text */
+    position: relative;
+  }
+  
+
+  
+  .about-container {
+    max-width: 800px; /* Max width of the content */
+    z-index: 2; /* Ensure it's above the overlay */
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent background for readability */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  }
+  
+  .about-section h2 {
+    font-size: 3rem; /* Larger font size for the heading */
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Light color for heading */
+    font-family: 'Outfit', sans-serif; /* Custom font for heading */
+  }
+  
+  .about-section p {
+    font-size: 1.2rem; /* Font size for paragraphs */
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Slightly lighter text color */
+  }
+  
+  @media (max-width: 770px) {
+    .about-section h2 {
+      font-size: 43px;
+    }
+    .about-section p {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 590px) {
+    .about-section h2 {
+      font-size: 30px;
+    }
+    .about-section p {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 470px) {
+    .about-section h2 {
+      font-size: 26px;
+    }
+    .about-section p {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .about-section h2 {
+      font-size: 24px;
+    }
+    .about-section p {
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 332px) {
+    .about-section h2 {
+      font-size: 20px;
+    }
+    .about-section p {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  

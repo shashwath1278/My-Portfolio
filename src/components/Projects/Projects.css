@@ -1,0 +1,114 @@
+/* Main Section */
+.projects-section {
+    padding: 100px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+  }
+  
+  /* Projects container for horizontal scroll */
+  .projects-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Project Card */
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for project card */
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Description styling */
+  .project-description {
+    font-size: 1rem;
+    color: #3c3c3c;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  
+  /* Tech Stack Cards inside each project card */
+  .tech-stack {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .tech-card {
+    background-color: #f1f1f1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Tech card styling for dark mode */
+  .projects-section.dark-mode .tech-card {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Project Title Link */
+  .project-card a {
+    text-decoration: none;
+    color: #003f9e;
+  }
+  
+  .project-card a:hover {
+    color: #003270;
+  }
+  
+  /* Heading styling */
+  .projects-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+/* Keep other styles as needed */
+
+/* Light Mode */
+.projects-section.light-mode .project-card {
+  background-color: rgb(212, 212, 212);
+  color: rgb(255, 255, 255);
+}
+
+.projects-section.light-mode .tech-card {
+  background-color: #57606e; /* Dark gray for tech cards in light mode */
+  color: white;
+}
+
+/* Dark Mode */
+.projects-section.dark-mode .project-card {
+  background-color: white;
+  color: black;
+}
+
+.projects-section.dark-mode .tech-card {
+  background-color: #e2e8f0; /* Light gray for tech cards in dark mode */
+  color: black;
+}
