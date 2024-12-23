@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Background from './components/background/Background';
 import Background1 from './components/background/Background1';
 import Navbar from './components/navbar/Navbar';
-import { useTheme } from './components/ThemeContext';
+import { useTheme } from './components/Themecontext';
 import Body from './components/Aboutme/Body';
 import Aboutme from './components/Aboutme/AboutMe';
 import Type from './components/Typewritertext/Typetext';
